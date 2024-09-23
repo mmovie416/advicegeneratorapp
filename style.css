@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: hsl(218, 23%, 16%);
+	font-family: 'Manrope',sans-serif;
+}
+
+.container{
+	display: grid;
+	place-content: center;
+	height: 75vh;
+}
+
+.container .content{
+	background-color:  hsl(217, 19%, 24%);
+	position: relative;
+	width: 31rem;
+	height: 11rem;
+	padding: 17%;
+	border-radius: 11px;
+	display: grid;
+	margin: auto;
+	left: -15%;
+}
+
+.container .content p:nth-child(1){
+	color: hsl(150, 100%, 66%);
+	text-align: center;
+	font-weight: 800;
+}
+
+.container .content p:nth-child(2){
+	color: white;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 3%;
+}
+
+
+
+.container .content img:nth-child(3){
+	position: absolute;
+	top: 85%;
+	left: 17%;
+}
+
+.container .content img:nth-child(5){
+	display: none;		
+}
+
+.container .content .icon-dice:nth-child(4){
+	position: absolute;
+	top: 97%;
+	left: 46.5%;
+	background-color: hsl(150, 100%, 66%);
+	padding: 2.5%;
+	border-radius: 50%;
+}
+
+.container .content .icon-dice:nth-child(4):hover{
+	box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+	cursor: pointer;
+}
+
+@media only screen and (max-width:768px) {
+	
+	.container .content{
+		background-color:  hsl(217, 19%, 24%);
+		position: relative;
+		width: 21rem;
+		height: 15rem;
+		padding: 17%;
+		border-radius: 11px;
+		display: grid;
+		margin: auto;
+		left: -16%;
+	}
+
+	.container .content p:nth-child(1){
+		color: hsl(150, 100%, 66%);
+		text-align: center;
+		font-weight: 800;
+	}
+
+	.container .content p:nth-child(2){
+		color: white;
+		font-size: 28px;
+		text-align: center;
+		margin-top: 3%;
+	}
+
+
+
+	.container .content img:nth-child(3){
+		position: absolute;
+		top: 85%;
+		left: 17%;
+		display: none;
+	}
+
+	.container .content img:nth-child(5){
+		position: absolute;
+		top: 85%;
+		left: 19%;
+		display: block;		
+	}
+
+	.container .content .icon-dice:nth-child(4){
+		position: absolute;
+		top: 97%;
+		left: 46.5%;
+		background-color: hsl(150, 100%, 66%);
+		padding: 2.5%;
+		border-radius: 50%;
+	}
+
+	.container .content .icon-dice:nth-child(4):hover{
+		box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+		cursor: pointer;
+	}
+}
+
+
+@media only screen and (max-width:375px) {
+	
+	.container .content{
+		background-color:  hsl(217, 19%, 24%);
+		position: relative;
+		width: 15rem;
+		height: 21rem;
+		padding: 17%;
+		border-radius: 11px;
+		display: grid;
+		margin: auto;
+		left: -16%;
+		top: 11%;
+	}
+
+	.container .content .AdviceContent{
+		width: 110%;
+	}
+
+	.container .content p:nth-child(1){
+		color: hsl(150, 100%, 66%);
+		text-align: center;
+		font-weight: 800;
+	}
+
+	.container .content p:nth-child(2){
+		color: white;
+		font-size: 28px;
+		text-align: center;
+		margin-top: 3%;
+	}
+
+
+
+	.container .content img:nth-child(3){
+		position: absolute;
+		top: 85%;
+		left: 17%;
+		display: none;
+	}
+
+	.container .content img:nth-child(5){
+		position: absolute;
+		top: 89%;
+		left: 4.5%;
+		display: block;		
+	}
+
+	.container .content .icon-dice:nth-child(4){
+		position: absolute;
+		top: 97%;
+		left: 43.5%;
+		background-color: hsl(150, 100%, 66%);
+		padding: 2.5%;
+		border-radius: 50%;
+	}
+
+	.container .content .icon-dice:nth-child(4):hover{
+		box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+		cursor: pointer;
+	}
+
+	
+}
+
